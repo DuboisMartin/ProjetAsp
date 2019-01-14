@@ -21,3 +21,11 @@ C:\Users\33685\source\repos\ProjetASP\ProjetASP\obj\Debug\netcoreapp2.2\Razor\Vi
 C:\Users\33685\source\repos\ProjetASP\ProjetASP\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\33685\source\repos\ProjetASP\ProjetASP\obj\Debug\netcoreapp2.2\ProjetASP.RazorTargetAssemblyInfo.cache
 C:\Users\33685\source\repos\ProjetASP\ProjetASP\obj\Debug\netcoreapp2.2\ProjetASP.RazorTargetAssemblyInfo.cs
+C:\Users\33685\source\repos\ProjetASP\ProjetASP\bin\Debug\netcoreapp2.2\ProjetASP.pdb
+C:\Users\33685\source\repos\ProjetASP\ProjetASP\bin\Debug\netcoreapp2.2\ProjetASP.Views.dll
+C:\Users\33685\source\repos\ProjetASP\ProjetASP\bin\Debug\netcoreapp2.2\ProjetASP.Views.pdb
+C:\Users\33685\source\repos\ProjetASP\ProjetASP\obj\Debug\netcoreapp2.2\ProjetASP.Views.pdb
+C:\Users\33685\source\repos\ProjetASP\ProjetASP\obj\Debug\netcoreapp2.2\ProjetASP.dll
+C:\Users\33685\source\repos\ProjetASP\ProjetASP\obj\Debug\netcoreapp2.2\ProjetASP.pdb
+C:\Users\33685\source\repos\ProjetASP\ProjetASP\obj\Debug\netcoreapp2.2\ProjetASP.csproj.CopyComplete
+C:\Users\33685\source\repos\ProjetASP\ProjetASP\obj\Debug\netcoreapp2.2\Razor\Views\Message\Index.g.cshtml.cs

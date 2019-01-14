@@ -1,0 +1,20 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+	<h1 class="display-4">Welcome</h1>
+	<div>
+		<ul id="messageList">
+			<li>Message</li>
+		</ul>
+	</div>
+	<input type="text" name="messageInput" id="messageInput" /><button name="messageSubmit" id="messageSubmit">Envoyer</button>
+</div>
+
+@section scripts{
+	<script src="~/lib/@@aspnet/signalr/dist/browser/signalr.js"></script>
+	<script src="~/js/msgpack5.js"></script>
+	<script src="~/js/signalr-protocol-msgpack.js"></script>
+	<script src="~/js/Messenger.js"></script>
+}
