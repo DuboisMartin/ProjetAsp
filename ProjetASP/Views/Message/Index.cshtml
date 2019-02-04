@@ -1,14 +1,27 @@
 ﻿@{
-	ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "MESSAGES";
 }
 
 <div class="form-group">
-	<h1 class="display-4">Welcome</h1>
-	<div class="form-group">
-		<ul class="list-group" id="messageList">
-		</ul>
-	</div>
-	<input class="form-control" type="text" name="messageInput" id="messageInput" /><button class="btn btn-primary mb-2" name="messageSubmit" id="messageSubmit">Envoyer</button>
+    <form action="#">
+        <div class="form-group">
+            <label for="userInput">Votre username :</label>
+            <input class="form-control" type="text" name="userInput" id="userInput" />
+        </div>
+        <div class="form-group">
+            <label for="messageInput">Votre message :</label>
+            <input class="form-control" type="text" name="messageInput" id="messageInput" />
+        </div>
+        <div class="form-group">
+            <button type="button" class="btn btn-primary mb-2" name="messageSubmit" id="messageSubmit">Envoyer</button>
+        </div>
+    </form>
+
+    <h3>Liste des messages :</h3>
+    <div class="form-group">
+        <ul class="list-group" id="messageList"></ul>
+    </div>
+
 </div>
 
 @section scripts{
