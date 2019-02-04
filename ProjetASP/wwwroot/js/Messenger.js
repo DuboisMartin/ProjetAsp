@@ -6,9 +6,11 @@ var connection = new signalR.HubConnectionBuilder()
     .build();
 
 connection.on('ReceiveMessage', function (user, message) {
+	console.log("Received");
 	var messageList = document.getElementById("messageList");
 	var node = document.createElement("li");
-	var nodeText = document.createTextNode(message);
+	var nodeText = document.createTextNode(user + ": " + message);
+	node.className = "list-group-item";
 	node.appendChild(nodeText);
 	messageList.appendChild(node);
 });
@@ -20,6 +22,7 @@ connection.start().catch(function (err) {
 document.getElementById('messageSubmit').addEventListener('click', function (event) {
     event.preventDefault();
     //var user = document.getElementById('user').value;
+	var user = "blabla";
     var message = document.getElementById('messageInput').value;
 
     connection.invoke("SendMessage", user, message).catch(function (err) {

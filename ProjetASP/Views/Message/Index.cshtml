@@ -2,14 +2,13 @@
 	ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
+<div class="form-group">
 	<h1 class="display-4">Welcome</h1>
-	<div>
-		<ul id="messageList">
-			<li>Message</li>
+	<div class="form-group">
+		<ul class="list-group" id="messageList">
 		</ul>
 	</div>
-	<input type="text" name="messageInput" id="messageInput" /><button name="messageSubmit" id="messageSubmit">Envoyer</button>
+	<input class="form-control" type="text" name="messageInput" id="messageInput" /><button class="btn btn-primary mb-2" name="messageSubmit" id="messageSubmit">Envoyer</button>
 </div>
 
 @section scripts{
