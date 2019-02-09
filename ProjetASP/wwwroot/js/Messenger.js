@@ -27,9 +27,9 @@ document.getElementById('messageSubmit').addEventListener('click', function (eve
     var user = document.getElementById('userInput').value;
     var message = document.getElementById('messageInput').value;
 
-    if (user == "")
+    if (user === "")
         return;
-    if (message == "")
+    if (message === "")
         return;
 
     connection.invoke("SendMessage", user, message).catch(function (err) {
